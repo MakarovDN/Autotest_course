@@ -6,9 +6,7 @@
 from pathlib import Path
 
 def delete_numbers():
-    """
-    Функция берет построчно текст из одного файла, и переносит его в другой, пропуская цифры
-    """
+
     first_file = open(Path(Path.cwd(), 'test_file', 'task1_data.txt'), encoding='utf-8')
     file_line_list = first_file.readlines()
     second_file = open(Path(Path.cwd(), 'test_file', 'task1_answer.txt'), 'w', encoding='utf-8')

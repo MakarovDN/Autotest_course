@@ -31,3 +31,4 @@ def calculate_summ_purchases():
 three_most_expensive_purchases = calculate_summ_purchases()
 
 assert three_most_expensive_purchases == 202346
+
